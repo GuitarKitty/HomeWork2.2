@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		842BA31425C55474005AE4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA31325C55474005AE4A4 /* AppDelegate.swift */; };
 		842BA31625C55474005AE4A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA31525C55474005AE4A4 /* SceneDelegate.swift */; };
-		842BA31825C55474005AE4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA31725C55474005AE4A4 /* ViewController.swift */; };
+		842BA31825C55474005AE4A4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BA31725C55474005AE4A4 /* SettingViewController.swift */; };
 		842BA31B25C55474005AE4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842BA31925C55474005AE4A4 /* Main.storyboard */; };
 		842BA31D25C55478005AE4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842BA31C25C55478005AE4A4 /* Assets.xcassets */; };
 		842BA32025C55478005AE4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842BA31E25C55478005AE4A4 /* LaunchScreen.storyboard */; };
+		84DC51C425D93D85007A2D2A /* MainColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC51C325D93D85007A2D2A /* MainColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		842BA31025C55474005AE4A4 /* HomeWork2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842BA31325C55474005AE4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842BA31525C55474005AE4A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		842BA31725C55474005AE4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842BA31725C55474005AE4A4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		842BA31A25C55474005AE4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842BA31C25C55478005AE4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842BA31F25C55478005AE4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842BA32125C55478005AE4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DC51C325D93D85007A2D2A /* MainColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		842BA31225C55474005AE4A4 /* HomeWork2.2 */ = {
 			isa = PBXGroup;
 			children = (
-				842BA31325C55474005AE4A4 /* AppDelegate.swift */,
-				842BA31525C55474005AE4A4 /* SceneDelegate.swift */,
-				842BA31725C55474005AE4A4 /* ViewController.swift */,
-				842BA31925C55474005AE4A4 /* Main.storyboard */,
+				84DC51C225D93CF3007A2D2A /* Models */,
+				84DC51C125D93CDA007A2D2A /* ViewControllers */,
+				84DC51BE25D93C8B007A2D2A /* Storyboards */,
+				84DC51BF25D93CA8007A2D2A /* Supporting files */,
 				842BA31C25C55478005AE4A4 /* Assets.xcassets */,
-				842BA31E25C55478005AE4A4 /* LaunchScreen.storyboard */,
-				842BA32125C55478005AE4A4 /* Info.plist */,
 			);
 			path = HomeWork2.2;
+			sourceTree = "<group>";
+		};
+		84DC51BE25D93C8B007A2D2A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				842BA31925C55474005AE4A4 /* Main.storyboard */,
+				842BA31E25C55478005AE4A4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84DC51BF25D93CA8007A2D2A /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				842BA31325C55474005AE4A4 /* AppDelegate.swift */,
+				842BA31525C55474005AE4A4 /* SceneDelegate.swift */,
+				842BA32125C55478005AE4A4 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		84DC51C125D93CDA007A2D2A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				842BA31725C55474005AE4A4 /* SettingViewController.swift */,
+				84DC51C325D93D85007A2D2A /* MainColorViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84DC51C225D93CF3007A2D2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842BA31825C55474005AE4A4 /* ViewController.swift in Sources */,
+				842BA31825C55474005AE4A4 /* SettingViewController.swift in Sources */,
 				842BA31425C55474005AE4A4 /* AppDelegate.swift in Sources */,
 				842BA31625C55474005AE4A4 /* SceneDelegate.swift in Sources */,
+				84DC51C425D93D85007A2D2A /* MainColorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S29CPM5XY;
-				INFOPLIST_FILE = HomeWork2.2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HomeWork2.2/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S29CPM5XY;
-				INFOPLIST_FILE = HomeWork2.2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HomeWork2.2/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
