@@ -20,10 +20,6 @@ class MainViewController: UIViewController {
 
     @IBOutlet var colorizedView: UIView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let settingVC = segue.destination as? SettingViewController else{ return }
         if segue.identifier == "showSettingScreen"{
@@ -39,7 +35,16 @@ class MainViewController: UIViewController {
 }
 
 extension MainViewController: SettingsViewControllerDelegate{
-    func setColorMainView(displayP3Red: CGFloat, green: CGFloat, blue: CGFloat, alpha: Float) {
-        colorizedView.backgroundColor = UIColor(displayP3Red: displayP3Red, green: green, blue: blue, alpha: CGFloat(alpha))
+    func setColorMainView(
+        displayP3Red: CGFloat,
+        green: CGFloat,
+        blue: CGFloat,
+        alpha: Float) {
+        
+        colorizedView.backgroundColor = UIColor(
+            displayP3Red: displayP3Red,
+            green: green,
+            blue: blue,
+            alpha: CGFloat(alpha))
     }
 }
