@@ -13,7 +13,7 @@
 		842BA31B25C55474005AE4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842BA31925C55474005AE4A4 /* Main.storyboard */; };
 		842BA31D25C55478005AE4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842BA31C25C55478005AE4A4 /* Assets.xcassets */; };
 		842BA32025C55478005AE4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842BA31E25C55478005AE4A4 /* LaunchScreen.storyboard */; };
-		84DC51C425D93D85007A2D2A /* MainColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC51C325D93D85007A2D2A /* MainColorViewController.swift */; };
+		84DC51CC25DA33C9007A2D2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC51CB25DA33C9007A2D2A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		842BA31C25C55478005AE4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842BA31F25C55478005AE4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842BA32125C55478005AE4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84DC51C325D93D85007A2D2A /* MainColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColorViewController.swift; sourceTree = "<group>"; };
+		84DC51CB25DA33C9007A2D2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				842BA31725C55474005AE4A4 /* SettingViewController.swift */,
-				84DC51C325D93D85007A2D2A /* MainColorViewController.swift */,
+				84DC51CB25DA33C9007A2D2A /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 				842BA31825C55474005AE4A4 /* SettingViewController.swift in Sources */,
 				842BA31425C55474005AE4A4 /* AppDelegate.swift in Sources */,
 				842BA31625C55474005AE4A4 /* SceneDelegate.swift in Sources */,
-				84DC51C425D93D85007A2D2A /* MainColorViewController.swift in Sources */,
+				84DC51CC25DA33C9007A2D2A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
